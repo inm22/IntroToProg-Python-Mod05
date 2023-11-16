@@ -56,7 +56,7 @@ except Exception as e:
 
 finally:
     if file and not file.closed:
-    file.close()
+        file.close()
 
 
 #input / output
